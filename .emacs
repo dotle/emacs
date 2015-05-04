@@ -8,15 +8,15 @@
 ;* 
 
 ;;;;∂¡»°Ω≈±æ
-(let ((default-directory "d:\\emacs-24.4\\site-lisp"))
+(let ((default-directory "c:\\emacs\\site-lisp"))
 (normal-top-level-add-to-load-path '("."))
 (normal-top-level-add-subdirs-to-load-path))
 
-(load-file "d:/emacs-24.4/elisp/base.el")
-(load-file "d:/emacs-24.4/site-lisp/addon.el")
-(load-file "d:/emacs-24.4/elisp/code.el")
-(load-file "d:/emacs-24.4/elisp/kbd.el")
-(load-file "d:/Emacs-24.4/include.el")
+(load-file "c:/emacs/elisp/base.el")
+(load-file "c:/emacs/site-lisp/addon.el")
+(load-file "c:/emacs/elisp/code.el")
+(load-file "c:/emacs/elisp/kbd.el")
+(load-file "c:/Emacs/include.el")
 
 ;;********************gnuserv OR server*******************
 ;(require 'gnuserv)
