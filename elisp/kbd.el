@@ -5,8 +5,8 @@
 ;  (global-set-key "\C-cb" 'semantic-mrub-switch-tags)
 ;  (global-set-key "\C-c\C-j" 'yc/goto-func-any)
   (global-set-key [f12] 'yc/goto-func)
-  (global-set-key "\M-[" 'yc/goto-func)
-  (global-set-key (kbd "M-o") 'yc/return-func)
+  (global-set-key "\M-j" 'yc/goto-func)
+  (global-set-key (kbd "M-[") 'yc/return-func)
   (global-set-key [M-f12] 'yc/return-func)
 ;  (global-set-key "\C-c\C-f" 'formatCode)
 ;  (global-set-key "\C-ckr" 'desktop-read)
@@ -56,7 +56,7 @@
 (global-set-key (kbd "\C-ct") 'visit-tags-table)    ; visit tags table
 (global-set-key "\M-]" '(lambda () (interactive) (rs/find-tag t)))
 ;(global-set-key "\M-]" 'rs/find-tag)
-;(global-set-key (kbd "M-o") 'pop-tag-mark)
+(global-set-key (kbd "M-o") 'pop-tag-mark)
 ;(global-set-key (kbd "M-,") 'sucha-release-small-tag-window)
 (global-set-key (kbd "C-c C-r") 'uncomment-region) 
 
