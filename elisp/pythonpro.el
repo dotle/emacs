@@ -40,10 +40,10 @@ python-shell-completion-string-code
      
      
 ;;;;;;;;;;;;;;;;;python program according to the version and path
-(setq  python-shell-interpreter "C:\\Python33\\python.exe")
-(setq  python-shell-interpreter-args "-i C:\\Python33\\Scripts\\ipython3-script.py") 
+;(setq  python-shell-interpreter "C:\\Python33\\python.exe")
+;(setq  python-shell-interpreter-args "-i C:\\Python33\\Scripts\\ipython3-script.py") 
   
-(setq pdb-path 'c:\\Python33\\Lib\\pdb.py) 
+(setq pdb-path 'python) 
 (setq gud-pdb-command-name (symbol-name pdb-path))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 

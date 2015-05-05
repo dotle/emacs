@@ -38,8 +38,8 @@
   python-shell-interpreter-args                      
   "-i C:\\Python33\\Scripts\\ipython3-script.py") 
   
-(setq pdb-path 'c:\\Python33\\Lib\\pdb.py 
-       gud-pdb-command-name (symbol-name pdb-path))
+;(setq pdb-path 'python  
+;       gud-pdb-command-name (symbol-name pdb-path))
 
 ;******************end**********************
 (setq ac-clang-flags

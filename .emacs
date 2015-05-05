@@ -16,6 +16,7 @@
 (load-file "c:/emacs/site-lisp/addon.el")
 (load-file "c:/emacs/elisp/code.el")
 (load-file "c:/emacs/elisp/kbd.el")
+(load-file "c:/emacs/elisp/pythonpro.el")
 (load-file "c:/Emacs/include.el")
 
 ;;********************gnuserv OR server*******************
