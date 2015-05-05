@@ -23,7 +23,7 @@
 ;  (global-set-key "\M-s" 'ecb-goto-window-sources) ;;切换到函数窗口
 )
 (setup-program-keybindings)
-
+(global-set-key "\C-c\C-g" 'gtags)
 
 ;;;; ECB各窗口间切换
 (global-set-key [M-left] 'windmove-left)
