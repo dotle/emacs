@@ -39,6 +39,7 @@
 ;(global-set-key [(meta return)] 'semantic-ia-complete-symbol-menu) ;;设置Alt+Enter为自动补全菜单
 
 (global-set-key [(control return)] 'complete-symbol) 
+(global-set-key "\M-," 'complete-symbol)
 
 
 
