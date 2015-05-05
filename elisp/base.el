@@ -246,7 +246,7 @@
 ;; 不生成名为#filename#的临时文件
 (setq auto-save-default nil)
 ;; 自动保存
-(setq auto-save-mode nil)
+;(setq auto-save-mode nil)
 ;;自动重载更改的文件
 (global-auto-revert-mode 1)
 
@@ -309,3 +309,6 @@ universal-argument-other-key)))
 (add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
 (add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
+;******************git**************************
+(require 'git-emacs)
