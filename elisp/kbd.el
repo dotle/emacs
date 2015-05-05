@@ -4,13 +4,13 @@
 ;  (global-set-key "\C-cR" 'yc/symref)
 ;  (global-set-key "\C-cb" 'semantic-mrub-switch-tags)
 ;  (global-set-key "\C-c\C-j" 'yc/goto-func-any)
-  (global-set-key "\C-c\C-j" 'evil-jump-to-tag)
-  (global-set-key "\C-c\C-i" 'pop-tag-mark)
+  (global-set-key "\C-cj" 'evil-jump-to-tag)
+  (global-set-key "\C-ci" 'pop-tag-mark)
   (global-set-key [f12] 'yc/goto-func)
-  (global-set-key "\C-cj" 'yc/goto-func)
+  (global-set-key "\C-c\C-j" 'yc/goto-func)
   (global-set-key "\C-c\C-m" 'yc/goto-func)
   (global-set-key "\C-c\C-k" 'yc/return-func)
-  (global-set-key "\C-ci" 'yc/return-func)
+  (global-set-key "\C-c\C-i" 'yc/return-func)
   (global-set-key [M-f12] 'yc/return-func)
 ;  (global-set-key "\C-c\C-f" 'formatCode)
 ;  (global-set-key "\C-ckr" 'desktop-read)
@@ -39,7 +39,7 @@
  
 ;(global-set-key [f12] 'ecb-activate) ;;定义F12键为激活ecb
 ;(global-set-key [C-f12] 'ecb-deactivate) ;;定义Ctrl+F12为停止ecb
-(global-set-key "\C-cq" 'delete-other-windows) ;;设置F11为删除其它窗口
+(global-set-key "\C-cy" 'delete-other-windows) ;;设置F11为删除其它窗口
 ;(global-set-key [(meta return)] 'semantic-ia-complete-symbol-menu) ;;设置Alt+Enter为自动补全菜单
 
 (global-set-key [(control return)] 'complete-symbol) 
