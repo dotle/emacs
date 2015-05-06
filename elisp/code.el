@@ -15,7 +15,7 @@
 (global-semantic-show-unmatched-syntax-mode 1)
 ;(global-semantic-show-parser-state-mode 1)
 (require 'semantic/analyze/refs)
-
+(setq semantic-c-obey-conditional-section-parsing-flag nil) 
 ;;;; TAGS Menu
 (defun my-semantic-hook ()
   (imenu-add-to-menubar "TAGS"))
