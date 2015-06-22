@@ -44,7 +44,7 @@
 (global-set-key "\C-cy" 'delete-other-windows) ;;设置F11为删除其它窗口
 ;(global-set-key [(meta return)] 'semantic-ia-complete-symbol-menu) ;;设置Alt+Enter为自动补全菜单
 
-(global-set-key [(control return)] 'complete-symbol) 
+(global-set-key [(control return)] 'auto-complete) 
 (global-set-key "\M-," 'complete-symbol)
 
 
