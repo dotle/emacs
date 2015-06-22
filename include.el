@@ -1,26 +1,8 @@
 ﻿;******************************cedet
 (defconst user-include-dirs
-  (list ".." "../include" "../inc" "../common" "../public"
-        "../.." "../../include" "../../inc" "../../common" "../../public"))
+  (list ".." ))
 (defconst win32-include-dirs
-  (list "C:/MinGW44/include"
-        "C:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include"
-        "C:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include\\c++"
-        "C:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include\\c++\\mingw32"
-        "C:\\Qt\\4.8.5\\include"
-	"C:\\Qt\\4.8.5\\include\\QtCore"
-	"C:\\Qt\\4.8.5\\include\\QtNetwork"
-	"C:\\Qt\\4.8.5\\include\\QtGui"
-	"C:\\Qt\\4.8.5\\include\\QtXml"
-	"C:\\Qt\\4.8.5\\include\\QtXmlPatterns"
-	"C:\\Qt\\4.8.5\\include\\QtSql"
-	"C:\\Qt\\4.8.5\\include"
-	"C:\\Qt\\4.8.5\\include\\ActiveQt"
-	"C:\\Qt\\4.8.5\\mkspecs\\default"
-        "D:\\Program Files\\Microsoft Visual Studio 9.0\\VC\\atlmfc\\include"
-	"D:\\Program Files\\Microsoft Visual Studio 9.0\\VC\\atlmfc\\src\\atl"
-	"D:\\Program Files\\Microsoft Visual Studio 9.0\\VC\\atlmfc\\src\\atl"
-	"D:\\Program Files\\Microsoft Visual Studio 9.0\\VC\\crt\\src"
+  (list	""
 	))
 (let ((include-dirs user-include-dirs))
   (when (eq system-type 'windows-nt)
@@ -42,7 +24,7 @@
 ;       gud-pdb-command-name (symbol-name pdb-path))
 
 ;******************end**********************
-(setq ac-clang-flags
+(setq ac-clang-flags 
       (mapcar (lambda (item)(concat "-I" item))
 	      (split-string
 	       "
@@ -50,17 +32,17 @@
 	    C:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include
             C:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include\\c++
             C:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include\\c++\\mingw32
-            C:\\Qt\\4.8.5\\include
-	    C:\\Qt\\4.8.5\\include\\QtCore
-	    C:\\Qt\\4.8.5\\include\\QtNetwork
-            C:\\Qt\\4.8.5\\include\\QtGui
-            C:\\Qt\\4.8.5\\include\\QtXml
-            C:\\Qt\\4.8.5\\include\\QtXmlPatterns
-            C:\\Qt\\4.8.5\\include\\QtSql
-            C:\\Qt\\4.8.5\\include
-            C:\\Qt\\4.8.5\\include\\ActiveQt
-            C:\\Qt\\4.8.5\\mkspecs\\default
+            C:\\Qt\\4.8.7_vs2010\\include
+	    C:\\Qt\\4.8.7_vs2010\\include\\QtCore
+	    C:\\Qt\\4.8.7_vs2010\\include\\QtNetwork
+            C:\\Qt\\4.8.7_vs2010\\include\\QtGui
+            C:\\Qt\\4.8.7_vs2010\\include\\QtXml
+            C:\\Qt\\4.8.7_vs2010\\include\\QtXmlPatterns
+            C:\\Qt\\4.8.7_vs2010\\include\\QtSql
+            C:\\Qt\\4.8.7_vs2010\\include
+            C:\\Qt\\4.8.7_vs2010\\include\\ActiveQt
+            C:\\Qt\\4.8.7_vs2010\\mkspecs\\default
             .
             ./GeneratedFiles
             "															                                 
-            ))) 
+))) 
