@@ -79,6 +79,11 @@
 (defun gtags ()
   (interactive )
   (shell-command "gtag") )
+  
+
+(defun qmake ()
+  (interactive )
+  (shell-command "qmake -makefile") )
 
   (global-set-key (kbd "\C-czg") 'gtags)
 

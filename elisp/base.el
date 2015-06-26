@@ -312,3 +312,6 @@ universal-argument-other-key)))
 
 ;******************git**************************
 (require 'git-emacs)
+
+;******************
+(require 'unicad)
