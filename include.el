@@ -29,19 +29,19 @@
 	      (split-string
 	       "
         C:\\mingw44\\include
-	    C:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include
-            C:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include\\c++
-            C:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include\\c++\\mingw32
-            C:\\Qt\\4.8.7_vs2010\\include
-	    C:\\Qt\\4.8.7_vs2010\\include\\QtCore
-	    C:\\Qt\\4.8.7_vs2010\\include\\QtNetwork
-            C:\\Qt\\4.8.7_vs2010\\include\\QtGui
-            C:\\Qt\\4.8.7_vs2010\\include\\QtXml
-            C:\\Qt\\4.8.7_vs2010\\include\\QtXmlPatterns
-            C:\\Qt\\4.8.7_vs2010\\include\\QtSql
-            C:\\Qt\\4.8.7_vs2010\\include
-            C:\\Qt\\4.8.7_vs2010\\include\\ActiveQt
-            C:\\Qt\\4.8.7_vs2010\\mkspecs\\default
+	    d:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include
+            d:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include\\c++
+            d:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include\\c++\\mingw32
+            d:\\Qt\\4.8.5_mingw\\include
+	    d:\\Qt\\4.8.5_mingw\\include\\QtCore
+	    d:\\Qt\\4.8.5_mingw\\include\\QtNetwork
+            d:\\Qt\\4.8.5_mingw\\include\\QtGui
+            d:\\Qt\\4.8.5_mingw\\include\\QtXml
+            d:\\Qt\\4.8.5_mingw\\include\\QtXmlPatterns
+            d:\\Qt\\4.8.5_mingw\\include\\QtSql
+            d:\\Qt\\4.8.5_mingw\\include
+            d:\\Qt\\4.8.5_mingw\\include\\ActiveQt
+            d:\\Qt\\4.8.5_mingw\\mkspecs\\default
             .
             ./GeneratedFiles
             "															                                 
