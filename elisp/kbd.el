@@ -116,6 +116,7 @@
 (global-set-key (kbd "M-3") 'split-window-horizontally)
 ;;切换到其他窗口，alt+0
 (global-set-key (kbd "M-0") 'other-window)
+(global-set-key "\C-ho" 'other-window)
 ;;显示缓冲区完整名称
 (global-set-key (kbd "M-5") 'display-buffer-name)
 

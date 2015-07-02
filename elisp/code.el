@@ -239,10 +239,10 @@ makes)."
 ;;(define-key ac-mode-map  [(control tab)] 'auto-complete)    
 ;; 提示快捷键为 M-/  
 (define-key ac-mode-map  (kbd "M-/") 'auto-complete)   
- (setq ac-sources (append '(ac-source-clang ac-source-yasnippet) ac-sources))
+ ;(setq ac-sources (append '(ac-source-clang ac-source-yasnippet) ac-sources))
  
  
- (setq ac-auto-start nil)
+(setq ac-auto-start nil)
 (setq ac-quick-help-delay 0.5)
 ;; (ac-set-trigger-key "TAB")
 ;; (define-key ac-mode-map  [(control tab)] 'auto-complete)
@@ -256,7 +256,7 @@ makes)."
   (add-hook 'auto-complete-mode-hook 'ac-common-setup)
   (global-auto-complete-mode t))
 (defun my-ac-cc-mode-setup ()
-  (setq ac-sources (append '(ac-source-clang ac-source-yasnippet) ac-sources)))
+  (setq ac-sources (append '(ac-source-clang ac-source-yasnippet))))
 (add-hook 'c-mode-common-hook 'my-ac-cc-mode-setup)
 ;; ac-source-gtags
 (my-ac-config)
