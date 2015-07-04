@@ -142,12 +142,14 @@
 ;(define-key global-map "\C-ca" 'org-agenda)
 (define-key global-map "\C-c\C-v" 'other-window)
  (global-set-key "\C-cze" 'formatCode)
-
+(global-set-key "\C-h\C-j" 'ibuffer)
+(global-set-key "\C-hj" 'ido-switch-buffer)
 ;(define-key  global-map (kbd "C-c M-a")   'flymake-goto-next-error-disp)
 ;(define-key global-map (kbd "C-c M-f")   'flymake-goto-prev-error-disp)
 ;(define-key global-map (kbd "C-c C-z") 	'flymake-display-current-warning/error)
 
 (global-set-key "\C-cc" 'compile)
+(global-set-key "\C-h\C-l" 'compile)
 (global-set-key "\C-cg" 'gdb)
 
 
