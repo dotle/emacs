@@ -145,6 +145,7 @@
  (global-set-key "\C-cze" 'formatCode)
 (global-set-key "\C-h\C-j" 'ibuffer)
 (global-set-key "\C-hj" 'ido-switch-buffer)
+(global-set-key "\C-c\C-o" 'find-file-at-point)
 ;(define-key  global-map (kbd "C-c M-a")   'flymake-goto-next-error-disp)
 ;(define-key global-map (kbd "C-c M-f")   'flymake-goto-prev-error-disp)
 ;(define-key global-map (kbd "C-c C-z") 	'flymake-display-current-warning/error)
