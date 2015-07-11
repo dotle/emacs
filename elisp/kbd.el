@@ -88,6 +88,10 @@
   (global-set-key (kbd "\C-czg") 'gtags)
 
 
+(defun q-project()
+  (interactive )
+  (shell-command "qmake -project") )
+
 ;;c-f5 Ë¢ÐÂ
 (defun refresh-file ()  
   (interactive)  
