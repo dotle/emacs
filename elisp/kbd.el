@@ -28,10 +28,10 @@
 (global-set-key "\C-c\C-g" 'gtags)
 
 ;;;; ECB各窗口间切换
-(global-set-key [M-left] 'windmove-left)
-(global-set-key [M-right] 'windmove-right)
-(global-set-key [M-up] 'windmove-up)
-(global-set-key [M-down] 'windmove-down) 
+;(global-set-key [M-left] 'windmove-left)
+;(global-set-key [M-right] 'windmove-right)
+;(global-set-key [M-up] 'windmove-up)
+;(global-set-key [M-down] 'windmove-down) 
 
 ;(global-set-key "\M-[" 'windmove-left)
 ;(global-set-key "\M-]" 'windmove-right)
@@ -41,11 +41,11 @@
  
 ;(global-set-key [f12] 'ecb-activate) ;;定义F12键为激活ecb
 ;(global-set-key [C-f12] 'ecb-deactivate) ;;定义Ctrl+F12为停止ecb
-(global-set-key "\C-cy" 'delete-other-windows) ;;设置F11为删除其它窗口
+(global-set-key "\C-h\C-y" 'delete-other-windows) ;;设置F11为删除其它窗口
 ;(global-set-key [(meta return)] 'semantic-ia-complete-symbol-menu) ;;设置Alt+Enter为自动补全菜单
 
 (global-set-key [(control return)] 'auto-complete) 
-(global-set-key "\M-," 'complete-symbol)
+;(global-set-key "\M-," 'complete-symbol)
 
 
 
@@ -108,22 +108,23 @@
 
 
 ;;C-z 设置标记
-(global-set-key "\C-h;" 'set-mark-command)
+;(global-set-key "\C-h;" 'set-mark-command)
+(global-set-key "\C-h;" 'kill-buffer)
 ;;关闭当前窗口,alt+4
-(global-set-key (kbd "M-4") 'delete-window)
+;(global-set-key (kbd "M-4") 'delete-window)
 ;;(global-set-key (kbd "M-4") 'kill-this-buffer)
 ;;关闭其他窗口,alt+1
-(global-set-key (kbd "M-1") 'delete-other-windows)
+;(global-set-key (kbd "M-1") 'delete-other-windows)
 ;;水平分割窗口,alt+2
-(global-set-key (kbd "M-2") 'split-window-vertically)
+;(global-set-key (kbd "M-2") 'split-window-vertically)
 ;;垂直分割窗口,alt+3
-(global-set-key (kbd "M-3") 'split-window-horizontally)
+;(global-set-key (kbd "M-3") 'split-window-horizontally)
 ;;切换到其他窗口，alt+0
-(global-set-key (kbd "M-0") 'other-window)
+;(global-set-key (kbd "M-0") 'other-window)
 (global-set-key "\C-h\C-o" 'other-window)
 (global-set-key "\C-h\C-i" 'evil-mode)
 ;;显示缓冲区完整名称
-(global-set-key (kbd "M-5") 'display-buffer-name)
+;(global-set-key (kbd "M-5") 'display-buffer-name)
 
 ;; 
 ;;设置home键指向buffer开头，end键指向buffer结尾

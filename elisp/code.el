@@ -26,6 +26,24 @@
 (setq semanticdb-default-save-directory
       (expand-file-name "~/.emacs.d/semanticdb"))
 (require 'semantic/sb)
+
+;******************************cedet
+(defconst user-include-dirs
+  (list ".." ))
+(defconst win32-include-dirs
+  (list	""
+	))
+(let ((include-dirs user-include-dirs))
+  (when (eq system-type 'windows-nt)
+    (setq include-dirs (append include-dirs win32-include-dirs)))
+  (mapc (lambda (dir)
+          (semantic-add-system-include dir 'c++-mode)
+          (semantic-add-system-include dir 'c-mode))
+        include-dirs))
+
+;end cedet
+
+;******************************python program
 ;;*********************************cedet
 ;(add-to-list 'load-path   "../site-lisp/cedet-1.1/common")
 ;
@@ -260,3 +278,5 @@ makes)."
 (add-hook 'c-mode-common-hook 'my-ac-cc-mode-setup)
 ;; ac-source-gtags
 (my-ac-config)
+
+(setq ac-clang-flags my-c++-include-dir)

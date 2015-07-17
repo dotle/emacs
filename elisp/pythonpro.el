@@ -47,3 +47,6 @@ python-shell-completion-string-code
 (setq gud-pdb-command-name (symbol-name pdb-path))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+
+(setq  python-shell-interpreter my-python-shell-interpreter)
+(setq  python-shell-interpreter-args my-python-shell-interpreter-args) 

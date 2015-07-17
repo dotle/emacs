@@ -315,3 +315,7 @@ universal-argument-other-key)))
 
 ;******************
 (require 'unicad)
+
+;**********************window-numbering*****************************
+(require 'window-numbering)
+(window-numbering-mode)
