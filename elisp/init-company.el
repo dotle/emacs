@@ -32,5 +32,5 @@
 ;))
 ;(setq company-clang-arguments ac-clang-flags)
 (setq company-clang-arguments my-c++-include-dir)
-(global-set-key "\M-," 'company-clang)
-(global-set-key "\M-[" 'company-complete-common)
+(global-set-key "\M-[" 'company-clang)
+(global-set-key "\M-," 'company-complete-common)
