@@ -19,6 +19,8 @@
 (load-file "c:/emacs/elisp/kbd.el")
 (load-file "c:/emacs/elisp/pythonpro.el")
 (load-file "c:/Emacs/elisp/init-company.el")
+(load-file "c:/emacs/elisp/init-evil-leader.el")
+(load-file "c:/emacs/elisp/init-evil-surround.el")
 ;;********************gnuserv OR server*******************
 ;(require 'gnuserv)
 ;(gnuserv-start)
