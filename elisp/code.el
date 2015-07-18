@@ -274,7 +274,7 @@ makes)."
   (add-hook 'auto-complete-mode-hook 'ac-common-setup)
   (global-auto-complete-mode t))
 (defun my-ac-cc-mode-setup ()
-  (setq ac-sources (append '(ac-source-words-in-same-mode-buffers ac-source-clang ac-source-filename))))
+  (setq ac-sources (append '(ac-source-clang ac-source-filename))))
 (add-hook 'c-mode-common-hook 'my-ac-cc-mode-setup)
 ;; ac-source-gtags
 (my-ac-config)
