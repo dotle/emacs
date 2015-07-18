@@ -47,6 +47,7 @@
 (global-set-key [(control return)] 'auto-complete) 
 ;(global-set-key "\M-," 'complete-symbol)
 
+(global-set-key [(meta return)] 'auto-complete)
 
 
 (global-set-key "\C-czc" 'calendar)  ;CALENDAR

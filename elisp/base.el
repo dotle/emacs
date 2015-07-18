@@ -33,8 +33,8 @@
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories (concat MyHome "ac-dict"))
 (ac-config-default)       
-(setq ac-auto-start nil)  
-(ac-set-trigger-key "<M-return>")
+;(setq ac-auto-start nil)  
+;(ac-set-trigger-key "<M-return>")
 (setq ac-fuzzy-enable t)
 (define-key ac-completing-map "\M-n" 'ac-next)  ;;; 列表中通过按M-n来向下移动
 (define-key ac-completing-map "\M-p" 'ac-previous)

@@ -12,25 +12,12 @@
 ))
 ;(setq company-show-numbers t)
 (add-hook company-hook-list 'company-mode))
-;(setq company-clang-arguments '(
-;				"-IC:\\mingw44\\include"
-;				"-Ic:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include"
-;				"-Ic:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include\\c++"
-;				"-Ic:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include\\c++\\mingw32"
-;				"-Ic:\\Qt\\4.8.5\\include"
-;				"-Ic:\\Qt\\4.8.5\\include\\QtCore"
-;				"-Ic:\\Qt\\4.8.5\\include\\QtNetwork"
-;				"-Ic:\\Qt\\4.8.5\\include\\QtGui"
-;				"-Ic:\\Qt\\4.8.5\\include\\QtXml"
-;				"-Ic:\\Qt\\4.8.5\\include\\QtXmlPatterns"
-;				"-Ic:\\Qt\\4.8.5\\include\\QtSql"
-;				"-Ic:\\Qt\\4.8.5\\include"
-;				"-Ic:\\Qt\\4.8.5\\include\\ActiveQt"
-;				"-Ic:\\Qt\\4.8.5\\mkspecs\\default"
-;				"-I."
-;				"-I./GeneratedFiles"
-;))
-;(setq company-clang-arguments ac-clang-flags)
-(setq company-clang-arguments my-c++-include-dir)
-(global-set-key "\M-[" 'company-clang)
-(global-set-key "\M-," 'company-complete-common)
+;(setq company-clang-arguments my-c++-include-dir-I)
+;(global-set-key "\M-[" 'company-clang)
+(global-set-key "\M-/" 'company-complete-common)
+(setq company-dabbrev-ignore-case t)
+;**********************************c - head complete******
+(require 'company-c-headers)
+(setq company-c-headers-path-system my-c++-include-dir)
+(global-set-key "\M-[" 'company-c-headers)
+(add-to-list 'company-backends 'company-c-headers)

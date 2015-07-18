@@ -256,7 +256,7 @@ makes)."
 ;;(ac-set-trigger-key "TAB")    
 ;;(define-key ac-mode-map  [(control tab)] 'auto-complete)    
 ;; 提示快捷键为 M-/  
-(define-key ac-mode-map  (kbd "M-/") 'auto-complete)   
+(define-key ac-mode-map  (kbd "M-,") 'auto-complete)   
  ;(setq ac-sources (append '(ac-source-clang ac-source-yasnippet) ac-sources))
  
  
@@ -274,9 +274,9 @@ makes)."
   (add-hook 'auto-complete-mode-hook 'ac-common-setup)
   (global-auto-complete-mode t))
 (defun my-ac-cc-mode-setup ()
-  (setq ac-sources (append '(ac-source-clang ac-source-filename))))
+  (setq ac-sources (append '(ac-source-words-in-same-mode-buffers ac-source-clang ac-source-filename))))
 (add-hook 'c-mode-common-hook 'my-ac-cc-mode-setup)
 ;; ac-source-gtags
 (my-ac-config)
 
-(setq ac-clang-flags my-c++-include-dir)
+(setq ac-clang-flags my-c++-include-dir-I)

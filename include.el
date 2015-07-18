@@ -6,12 +6,9 @@
 ;       gud-pdb-command-name (symbol-name pdb-path))
 
 ;******************end**********************
-
-(setq my-c++-include-dir
-      (mapcar (lambda (item)(concat "-I" item))
-	      (split-string
+(setq my-c++-include-dir-base
 	       "
-        C:\\mingw44\\include
+	    C:\\mingw44\\include
 	    c:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include
             c:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include\\c++
             c:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include\\c++\\mingw32
@@ -28,4 +25,16 @@
             .
             ./GeneratedFiles
             "															                                 
-))) 
+)
+
+(setq my-c++-include-dir-I
+      (mapcar (lambda (item)(concat "-I" item))
+	      (split-string
+	       my-c++-include-dir-base
+)))
+
+(setq my-c++-include-dir
+      (mapcar (lambda (item)(concat "" item))
+	      (split-string
+	       my-c++-include-dir-base
+)))
