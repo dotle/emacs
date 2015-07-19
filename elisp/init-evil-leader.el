@@ -7,7 +7,7 @@
   "k" 'kill-buffer
   "o" 'other-window
   "f" 'moccur-grep-find
-  "xg" 'gtaggs
+  "xg" 'gtags
   "do" 'delete-other-windows
   "dw" 'delete-window
   "lm" 'global-linum-mode
@@ -20,6 +20,7 @@
   "sc" 'shell-command
   "SPC" 'delete-trailing-whitespace
   "S" 'eshell
+  "xj" '(lambda () (interactive) (rs/find-tag t))
 )
 
 (evil-leader/set-key-for-mode 'c-mode 

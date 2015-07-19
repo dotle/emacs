@@ -10,7 +10,7 @@
 'lisp-interaction-mode-hook
 'c-mode-common-hook
 ))
-;(setq company-show-numbers t)
+(setq company-show-numbers t)
 (add-hook company-hook-list 'company-mode))
 ;(setq company-clang-arguments my-c++-include-dir-I)
 ;(global-set-key "\M-[" 'company-clang)
@@ -19,5 +19,5 @@
 ;**********************************c - head complete******
 (require 'company-c-headers)
 (setq company-c-headers-path-system my-c++-include-dir)
-(global-set-key "\M-[" 'company-c-headers)
+;(global-set-key "\M-[" 'company-c-headers)
 (add-to-list 'company-backends 'company-c-headers)

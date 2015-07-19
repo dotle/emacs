@@ -257,6 +257,7 @@ makes)."
 ;;(define-key ac-mode-map  [(control tab)] 'auto-complete)    
 ;; 提示快捷键为 M-/  
 (define-key ac-mode-map  (kbd "M-,") 'auto-complete)   
+(define-key ac-mode-map  (kbd "M-'") 'auto-complete)
  ;(setq ac-sources (append '(ac-source-clang ac-source-yasnippet) ac-sources))
  
  
@@ -264,7 +265,6 @@ makes)."
 (setq ac-quick-help-delay 0.5)
 ;; (ac-set-trigger-key "TAB")
 ;; (define-key ac-mode-map  [(control tab)] 'auto-complete)
-(define-key ac-mode-map  [(control tab)] 'auto-complete)
 (defun my-ac-config ()
   (setq-default ac-sources '(ac-source-abbrev ac-source-dictionary ac-source-words-in-same-mode-buffers ac-source-filename))
   (add-hook 'emacs-lisp-mode-hook 'ac-emacs-lisp-mode-setup)

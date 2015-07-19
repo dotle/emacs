@@ -8,20 +8,20 @@
 ;******************end**********************
 (setq my-c++-include-dir-base
 	       "
-	    C:\\mingw44\\include
-	    c:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include
-            c:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include\\c++
-            c:\\mingw44\\lib\\gcc\\mingw32\\4.4.0\\include\\c++\\mingw32
-            c:\\Qt\\4.8.5\\include
-	    c:\\Qt\\4.8.5\\include\\QtCore
-	    c:\\Qt\\4.8.5\\include\\QtNetwork
-            c:\\Qt\\4.8.5\\include\\QtGui
-            c:\\Qt\\4.8.5\\include\\QtXml
-            c:\\Qt\\4.8.5\\include\\QtXmlPatterns
-            c:\\Qt\\4.8.5\\include\\QtSql
-            c:\\Qt\\4.8.5\\include
-            c:\\Qt\\4.8.5\\include\\ActiveQt
-            c:\\Qt\\4.8.5\\mkspecs\\default
+	    C:/mingw44/include
+	    c:/mingw44/lib/gcc/mingw32/4.4.0/include
+            c:/mingw44/lib/gcc/mingw32/4.4.0/include/c++
+            c:/mingw44/lib/gcc/mingw32/4.4.0/include/c++/mingw32
+            c:/Qt/4.8.5/include
+	    c:/Qt/4.8.5/include/QtCore
+	    c:/Qt/4.8.5/include/QtNetwork
+            c:/Qt/4.8.5/include/QtGui
+            c:/Qt/4.8.5/include/QtXml
+            c:/Qt/4.8.5/include/QtXmlPatterns
+            c:/Qt/4.8.5/include/QtSql
+            c:/Qt/4.8.5/include
+            c:/Qt/4.8.5/include/ActiveQt
+            c:/Qt/4.8.5/mkspecs/default
             .
             ./GeneratedFiles
             "															                                 
@@ -38,3 +38,7 @@
 	      (split-string
 	       my-c++-include-dir-base
 )))
+
+(setq my-c++-include-dir-for-head
+	      (split-string my-c++-include-dir-base)
+)
