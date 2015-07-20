@@ -8,20 +8,20 @@
 ;******************end**********************
 (setq my-c++-include-dir-base
 	       "
-	    C:/mingw44/include
-	    c:/mingw44/lib/gcc/mingw32/4.4.0/include
-            c:/mingw44/lib/gcc/mingw32/4.4.0/include/c++
-            c:/mingw44/lib/gcc/mingw32/4.4.0/include/c++/mingw32
-            c:/Qt/4.8.5/include
-	    c:/Qt/4.8.5/include/QtCore
-	    c:/Qt/4.8.5/include/QtNetwork
-            c:/Qt/4.8.5/include/QtGui
-            c:/Qt/4.8.5/include/QtXml
-            c:/Qt/4.8.5/include/QtXmlPatterns
-            c:/Qt/4.8.5/include/QtSql
-            c:/Qt/4.8.5/include
-            c:/Qt/4.8.5/include/ActiveQt
-            c:/Qt/4.8.5/mkspecs/default
+	    C:/MinGW_gcc440_1/mingw44/include
+	    c:/MinGW_gcc440_1/mingw44/lib/gcc/mingw32/4.4.0/include
+            c:/MinGW_gcc440_1/mingw44/lib/gcc/mingw32/4.4.0/include/c++
+            c:/MinGW_gcc440_1/mingw44/lib/gcc/mingw32/4.4.0/include/c++/mingw32
+            d:/Qt/4.8.5_mingw/include
+	    d:/Qt/4.8.5_mingw/include/QtCore
+	    d:/Qt/4.8.5_mingw/include/QtNetwork
+            d:/Qt/4.8.5_mingw/include/QtGui
+            d:/Qt/4.8.5_mingw/include/QtXml
+            d:/Qt/4.8.5_mingw/include/QtXmlPatterns
+            d:/Qt/4.8.5_mingw/include/QtSql
+            d:/Qt/4.8.5_mingw/include
+            d:/Qt/4.8.5_mingw/include/ActiveQt
+            d:/Qt/4.8.5_mingw/mkspecs/default
             .
             ./GeneratedFiles
             "															                                 

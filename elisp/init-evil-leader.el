@@ -21,13 +21,16 @@
   "SPC" 'delete-trailing-whitespace
   "S" 'eshell
   "xj" '(lambda () (interactive) (rs/find-tag t))
+
+  "te" 'formatCode
+  "m" 'compile
+  "sd" 'semantic-ia-show-doc
+  "ss" 'semantic-ia-show-summary
+  "ib"  'ibuffer
+  "is"  'ido-switch-buffer
 )
 
 (evil-leader/set-key-for-mode 'c-mode 
-  "mc" 'formatCode
-  "cc" 'compile
-  "sd" 'semantic-ia-show-doc
-  "ss" 'semantic-ia-show-summary
 
   "css" 'cscope-find-this-symbol
   "csd" 'cscope-find-global-definition
@@ -61,10 +64,6 @@
 )
 
 (evil-leader/set-key-for-mode 'c++-mode 
-  "mc" 'formatCode
-  "cc" 'compile
-  "sd" 'semantic-ia-show-doc
-  "ss" 'semantic-ia-show-summary
 
   "css" 'cscope-find-this-symbol
   "csd" 'cscope-find-global-definition
