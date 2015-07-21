@@ -256,7 +256,7 @@ makes)."
 ;;(ac-set-trigger-key "TAB")    
 ;;(define-key ac-mode-map  [(control tab)] 'auto-complete)    
 ;; 提示快捷键为 M-/  
-(define-key ac-mode-map  (kbd "M-/") 'auto-complete)   
+(define-key ac-mode-map  (kbd "M-,") 'auto-complete)   
 ;(define-key ac-mode-map  (kbd "M-'") 'auto-complete)
  ;(setq ac-sources (append '(ac-source-clang ac-source-yasnippet) ac-sources))
  
