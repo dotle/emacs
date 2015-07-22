@@ -28,6 +28,8 @@
   "ss" 'semantic-ia-show-summary
   "ib"  'ibuffer
   "is"  'ido-switch-buffer
+  
+  "p" 'evil-jump-item
 )
 
 (evil-leader/set-key-for-mode 'c-mode 
