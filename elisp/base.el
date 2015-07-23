@@ -162,9 +162,9 @@
 (require 'eval-after-load)
 
 ;;******************************** color theme Emacs主题,很多face文件
-(require 'color-theme) 
-(color-theme-initialize) 
-(color-theme-gnome2)
+;(require 'color-theme) 
+;(color-theme-initialize) 
+;(color-theme-gnome2)
 
 
 ;; *****************************高亮当前行

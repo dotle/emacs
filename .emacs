@@ -28,6 +28,7 @@
 (load-file "c:/emacs/elisp/init-web.el")
 (load-file "c:/emacs/elisp/init-csharp.el")
 (load-file "c:/emacs/elisp/init-ctype.el")
+(load-file "c:/emacs/elisp/init-theme.el")
 
 ;;********************gnuserv OR server*******************
 ;(require 'gnuserv)

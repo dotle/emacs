@@ -6,7 +6,8 @@
 (or (facep 'my-hl-line-face) (make-face 'my-hl-line-face))
 (setq hl-line-face 'my-hl-line-face)
 (face-spec-set 'my-hl-line-face '((t (
-                                      :background "DodgerBlue3"
+                                      ;:background "DodgerBlue3"
+				      :background "#505050"
                                                   ;;:bold
                                                   ;;:weight nil
                                       :inverse-video nil

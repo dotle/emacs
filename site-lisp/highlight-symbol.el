@@ -93,8 +93,10 @@
 
 (defface highlight-symbol-face
   '((((class color) (background dark))
-     (:background "gray30"))
+     ;(:background "gray30"))
+     (:background "#606060"))
     (((class color) (background light))
+     ;(:background "gray90")))
      (:background "gray90")))
   "*Face used by `highlight-symbol-mode'."
   :group 'highlight-symbol)
