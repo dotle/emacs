@@ -29,7 +29,8 @@
 (load-file "c:/emacs/elisp/init-csharp.el")
 (load-file "c:/emacs/elisp/init-ctype.el")
 (load-file "c:/emacs/elisp/init-theme.el")
-
+(load-file "c:/emacs/elisp/init-protobuf.el")
+(load-file "c:/emacs/elisp/init-ido.el")
 ;;********************gnuserv OR server*******************
 ;(require 'gnuserv)
 ;(gnuserv-start)

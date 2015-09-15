@@ -30,6 +30,7 @@
   "is"  'ido-switch-buffer
   
   "p" 'evil-jump-item
+  "if" 'ido-find-file
 )
 
 (evil-leader/set-key-for-mode 'c-mode 

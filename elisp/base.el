@@ -232,9 +232,6 @@
   (setq w32-pass-lwindow-to-system nil)  
   (setq w32-lwindow-modifier 'hyper) 
 
-(require 'ido)
-(ido-mode t)
-(setq ido-last-directory-list nil)
 
 (require 'smex)
 (smex-initialize)

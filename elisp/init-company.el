@@ -21,3 +21,5 @@
 (setq company-c-headers-path-system my-c++-include-dir)
 ;(global-set-key "\M-]" 'company-c-headers)
 (add-to-list 'company-backends 'company-c-headers)
+(setq company-idle-delay 0.2)           ;延迟时间
+(setq company-minimum-prefix-length 2)  ;触发补全的字符数量
