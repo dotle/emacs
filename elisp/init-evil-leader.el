@@ -31,6 +31,9 @@
   
   "p" 'evil-jump-item
   "if" 'ido-find-file
+
+
+  "co" 'recentf-open-files-compl
 )
 
 (evil-leader/set-key-for-mode 'c-mode 
