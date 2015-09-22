@@ -34,6 +34,10 @@
 
 
   "co" 'recentf-open-files-compl
+
+  "ca" 'wy-go-to-char
+  "c." 'ska-point-to-register
+  "c," 'ska-jump-to-register 
 )
 
 (evil-leader/set-key-for-mode 'c-mode 

@@ -14,7 +14,7 @@
 (add-hook company-hook-list 'company-mode))
 ;(setq company-clang-arguments my-c++-include-dir-I)
 ;(global-set-key "\M-[" 'company-clang)
-(global-set-key "\M-/" 'company-complete-common)
+(global-set-key "\M-," 'company-complete-common)
 (setq company-dabbrev-ignore-case t)
 ;**********************************c - head complete******
 (require 'company-c-headers)

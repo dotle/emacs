@@ -30,6 +30,7 @@
 (load-file "c:/emacs/elisp/init-protobuf.el")
 (load-file "c:/emacs/elisp/init-ido.el")
 (load-file "c:/emacs/elisp/init-recentf.el")
+(load-file "c:/emacs/elisp/init-func.el")
 (load-file "c:/emacs/elisp/init-evil-surround.el")
 (load-file "c:/emacs/elisp/init-evil-leader.el")
 ;;********************gnuserv OR server*******************
